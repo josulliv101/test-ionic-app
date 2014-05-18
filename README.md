@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/josulliv101/test-ionic-app.svg?branch=master)](https://travis-ci.org/josulliv101/test-ionic-app)
+
 Ionic App Base
 =====================
 
