@@ -1,5 +1,22 @@
-<ion-view title="Dashboard">
-  <ion-content class="has-header padding">
-    <h1>Dash</h1>
-  </ion-content>
+<ion-view title="Medford/Somerville" class="slide-left-right">
+  <ion-slide-box>
+    <ion-slide>
+      <div class="box blue"><h1>BLUE</h1></div>
+    </ion-slide>
+    <ion-slide>
+      <div class="box yellow"><h1>YELLOW</h1></div>
+    </ion-slide>
+    <ion-slide on-slide-changed="slideHasChanged(index)">
+      <div class="box pink"><h1>PINK</h1></div>
+    </ion-slide>
+  </ion-slide-box>
+  <ion-footer-bar align-title="left" class="bar-assertive">
+    <div class="buttons">
+      <button class="button">Left Button</button>
+    </div>
+    <h1 class="title">Title!</h1>
+    <div class="buttons" ng-click="doSomething()">
+      <button class="button">Right Button</button>
+    </div>
+  </ion-footer-bar>
 </ion-view>
